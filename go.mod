@@ -1,4 +1,4 @@
-module spinner
+module github.com/MasterArd/spinner
 
 go 1.26.4
 
