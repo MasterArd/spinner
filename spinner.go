@@ -52,10 +52,9 @@ func New() fyne.CanvasObject {
 						A: alpha,
 					}
 				}
-
 				fyne.Do(func() {
-						circles[i].Refresh()
-					})
+					circles[i].Refresh()
+				})
 			}
 
 			phase = (phase + 1) % dots
